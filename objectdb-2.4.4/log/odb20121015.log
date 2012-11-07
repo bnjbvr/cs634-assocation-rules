@@ -1,0 +1,49 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2012-10-15 11:53:47 #1 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' is opened by 6480@user-TOSH
+
+[2012-10-15 11:53:47 #2 type] 
+Type apriori.sources.TransactionDb is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2012-10-15 11:54:57 #1 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' has been recovered (tr. 1-6)
+
+[2012-10-15 11:54:57 #2 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' is opened by 6952@user-TOSH
+
+[2012-10-15 11:54:57 #3 type] 
+Type apriori.sources.TransactionDb is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2012-10-15 11:59:15 #1 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' has been recovered (tr. 7-7)
+
+[2012-10-15 11:59:15 #2 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' is opened by 4580@user-TOSH
+
+[2012-10-15 11:59:16 #3 type] 
+Type apriori.sources.TransactionDb is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2012-10-15 11:59:27 #1 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' has been recovered (tr. 8-8)
+
+[2012-10-15 11:59:27 #2 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' is opened by 6980@user-TOSH
+
+[2012-10-15 11:59:27 #3 type] 
+Type apriori.sources.TransactionDb is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2012-10-15 11:59:54 #1 store] 
+Database 'D:\Documents\Cours\INSA\Newark\cs634_DataMining\project1\objectdb-2.4.4\db\association.odb' is opened by 6892@user-TOSH
+
+[2012-10-15 11:59:54 #2 type] 
+Type apriori.sources.TransactionDb is not enhanced.
+
