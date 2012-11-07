@@ -44,20 +44,25 @@ public class DbSource implements TransactionSource {
 	 */
 	public List<Itemset> generate() {
 		List<Itemset> list = new ArrayList<>();
-		EntityManagerFactory emf = Persistence
-				.createEntityManagerFactory("$objectdb/db/association.odb");
-		EntityManager em = emf.createEntityManager();
 
-		Query q = em.createQuery("SELECT t FROM TransactionDb t");
-		List<TransactionDb> results = (List<TransactionDb>) q.getResultList();
-		for (TransactionDb t : results) {
-			Itemset transaction = new Itemset();
-			for (String s : t.getItems()) {
-				transaction.add(LabelsMap.getInstance()
-						.addNameCorrespondance(s));
-			}
-			list.add(transaction);
-		}
+        try {
+            EntityManagerFactory emf = Persistence
+                    .createEntityManagerFactory("$objectdb/db/association.odb");
+            EntityManager em = emf.createEntityManager();
+
+            Query q = em.createQuery("SELECT t FROM TransactionDb t");
+            List<TransactionDb> results = (List<TransactionDb>) q.getResultList();
+            for (TransactionDb t : results) {
+                Itemset transaction = new Itemset();
+                for (String s : t.getItems()) {
+                    transaction.add(LabelsMap.getInstance()
+                            .addNameCorrespondance(s));
+                }
+                list.add(transaction);
+            }
+        } catch (Exception e) {
+            System.out.println("Error when retrieving transactions from db: " + e.toString());
+        }
 		return list;
 	}
 
